@@ -8,6 +8,12 @@ body {
   max-width: 1400px;
 }
 
+.image-responsive {
+  display: block;
+  margin: 0;
+  max-width: 100%;
+}
+
 .grid {
   display: grid;
   grid-gap: 64px;
@@ -19,6 +25,37 @@ body {
 
 .grid-3-colums-with-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
+}
+
+.grid-3-colums {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+  background-color: #fff;
+  margin: 30px 0;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.card-footer {
+  padding: 30px 0;
+}
+
+.card .btn {
+  background-color: #448344;
+  color: #fff;
+  display: block;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 16px;
 }
 
 header {
@@ -79,7 +116,7 @@ main {
 }
 
 main img {
-  margin-top: 80px;
+  margin-top: 100px;
   max-width: 500px;
 }
 
@@ -102,6 +139,20 @@ main h3 {
   text-transform: uppercase;
 }
 
+main h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  margin: 0;
+}
+
+main h5 {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1;
+  margin: 0;
+}
+
 main p {
   font-size: 16px;
   font-weight: 400;
@@ -110,9 +161,13 @@ main p {
 }
 
 section {
-  max-width: 1200px;
   margin: 0 auto;
-  padding: 120px 0;
+  max-width: 100%;
+  padding: 120px;
+}
+
+.secondary {
+  background-color: #f2f3f5;
 }
 
 footer {
@@ -201,6 +256,10 @@ footer p {
 
   main h3 {
     font-size: 12px;
+  }
+
+  main h4 {
+    font-size: 16px;
   }
 
   main p {
