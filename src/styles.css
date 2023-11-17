@@ -179,6 +179,10 @@ section {
   background-color: #f2f3f5;
 }
 
+.youtube-grid {
+  margin-top: 30px;
+}
+
 footer {
   background-image: linear-gradient(
       rgba(47, 91, 47, 0.8),
@@ -256,6 +260,11 @@ footer p {
   .grid {
     grid-template-columns: 1fr;
     grid-gap: 12px;
+  }
+
+  .element-center {
+    display: block;
+    margin: 0 auto;
   }
 
   section {
